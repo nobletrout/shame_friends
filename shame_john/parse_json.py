@@ -2,7 +2,7 @@ import json
 
 
 not_json_string = "john is a pretend british person"
-json_string = '{"john": { "pretend british" : { "bool" : "true" }}}'
+json_string = '{"john": { "pretend british" : { "truthiness" : true }}}'
 
 try:
     not_json_parsed = json.loads(not_json_string)
